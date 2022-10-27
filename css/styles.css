@@ -590,7 +590,8 @@ body {
   width: 200px;
   height: 50px;
   background-color: #2196f3;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: none;
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   border-radius: 4px;
   padding-left: 28px;
   padding-right: 28px;
@@ -611,7 +612,7 @@ body {
 }
 
 .footer-subscribes-icon {
-  fill: var(--accent-color3);
+  fill: #ffffff;
   margin-left: 10px;
 }
 /* logo */
@@ -896,7 +897,6 @@ body {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 42px;
   transition: border-color 250ms var(--transition);
 }
 .modal-form-textarea:focus {
