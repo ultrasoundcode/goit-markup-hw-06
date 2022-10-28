@@ -111,7 +111,7 @@ body {
   position: absolute;
   display: block;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -612,7 +612,7 @@ body {
 }
 
 .footer-subscribes-icon {
-  /* fill: #ffffff; */
+  fill: #ffffff;
   margin-left: 10px;
 }
 /* logo */
